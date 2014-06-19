@@ -1,0 +1,17 @@
+ENVI
+description = {
+  Georeferenced Image built from input GLT. [Mon Jun 09 12:22:29 2014]}
+samples = 374
+lines   = 567
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {UTM, 1.000, 1.000, -229680.560, 6002149.793, 2.5656000000e+003, 2.5656000000e+003, 16, North, units=Meters, rotation=11.00000000}
+coordinate system string = {PROJCS["UTM_Zone_16N",GEOGCS["GCS_North_American_1927",DATUM["D_North_American_1927",SPHEROID["Clarke_1866",6378206.4,294.9786982]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-87.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]}
+wavelength units = Unknown
+band names = {
+ Georef (Band 1:goes13.2013.126.1645.Band4.img)}

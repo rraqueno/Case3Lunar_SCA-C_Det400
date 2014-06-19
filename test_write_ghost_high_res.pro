@@ -1,0 +1,1 @@
+write_ghost_weights_radiances_as_matrix_high_resolution,'GOES_DOY279_GVNP_SHORE-B11-l8_input-AQUA_B11-geo-bias-water-unsampled.img','l8_positions_to_goes_positions.txt'

@@ -1,0 +1,18 @@
+git commit 315623b03596706442737fd282c5506451d59aa3
+
+Contains the data and state of the processing that was distributed to the 
+team.
+
+The link to that data can be found in 
+
+
+
+Improvements that still need to be made
+
+1. Finish other cases
+2. Incorporate the BLL to determine the location of water.
+3. Incorporate the actual LAT LONS routine that selects the GOES data.
+We should be able to compare this with the current routine that uses 
+the GVNP method.
+
+RVR

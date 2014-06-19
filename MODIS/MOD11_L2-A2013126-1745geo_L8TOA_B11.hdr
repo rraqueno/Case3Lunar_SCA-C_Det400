@@ -1,0 +1,19 @@
+ENVI
+description = {
+  Band Math Result, Expression = [(B11*0.98595542*0.707359) +
+  (0.707359*(1-0.98595542)*2.71063) +1.86786 ] B11:Band
+  3:MOD11_L2-A2013126-1745geo_L8TOA [Fri Jun 06 12:33:56 2014]}
+samples = 2324
+lines   = 2343
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, -114.09598069, 55.43656812, 1.2645472329e-002, 8.9985953983e-003, WGS-84, units=Degrees}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+wavelength units = Unknown
+band names = {
+ Band Math ((B11*0.98595542*0.707359)+(0.707359*(1-0.98595542)*2.71063)+1.86786)}
