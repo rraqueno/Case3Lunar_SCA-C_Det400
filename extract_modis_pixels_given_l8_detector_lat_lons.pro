@@ -83,7 +83,7 @@ combined_data=[[[l8_data]],[[modis_data]],[[bias_map]],[[l8_lats]],[[l8_lons]]]
 ;
 full_set = transpose([[[l8_lats]],[[l8_lons]],[[bias_map]]])
 openw,lun,combined_filename+'-geo-bias'+'.txt',/get_lun
-printf,lun, full_set
+;printf,lun, full_set
 free_lun,lun
 
 ;
@@ -100,6 +100,14 @@ water_set = full_set[*,water_lines]
 
 openw,lun,combined_filename+'-geo-bias-water'+'.txt',/get_lun
 printf,lun, water_set
+free_lun,lun
+
+;print,n_elements(water_set)
+
+path_midpoint = water_set[*,n_elements(water_set[0,*])/2-1]
+
+openw,lun,combined_filename+'-path-midpoint'+'.txt',/get_lun
+printf,lun, path_midpoint
 free_lun,lun
 
 ;
